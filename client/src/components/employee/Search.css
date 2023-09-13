@@ -1,0 +1,98 @@
+.search {
+  background-color: #ecf0f5;
+  padding: 15px;
+}
+.table-div {
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.table{
+  table-layout: fixed;
+  width: 100%;
+}
+.th {
+  padding: 5px 5px;
+  white-space: nowrap;
+  background-color: #eee;
+  border-radius: 5px 5px 0 0;
+  max-width: 10rem;
+  font-size: .8rem;
+  white-space: normal;
+  word-wrap: break-word;
+  background-color: #3c8dbc;
+  color: white;
+}
+.td {
+  padding: 0px 5px;
+  width: 8rem;
+  height: 2rem;
+  border: 1px solid #cecece;
+  white-space: nowrap;
+  background-color: white;
+  color: #666666;
+  font-size: 0.8rem;
+  max-width: 6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search .add-btn {
+  padding: 3px;
+  border-radius: 5px;
+  background: #10abca;
+  color: white;
+  font-weight: 500;
+  /* margin-top: 10px; */
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 7rem;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.search input {
+  padding: 5px 0;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-align: center;
+  width: 15rem;
+  margin: 10px 1rem;
+}
+.search .btn-clear {
+  height: 2rem;
+  padding: 3px;
+  border-radius: 5px;
+  background: #b2290a;
+  color: white;
+  font-weight: 500;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 7rem;
+}
+.table-div .page-btn {
+  border: 1px solid #666666;
+  background: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.edit-row {
+  background: green;
+  color: white;
+  border: none;
+  padding: 2px;
+  font-size: 0.7rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 2px;
+}
+.delete-row {
+  background: #b2290a;
+  color: white;
+  border: none;
+  padding: 2px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 4px;
+}

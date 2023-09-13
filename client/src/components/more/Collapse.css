@@ -1,0 +1,61 @@
+.collapse{
+    padding: 15px;
+    background-color: white;
+}
+.collapse .positionDrop {
+  background: #eeeeee;
+  height: 0;
+  overflow: hidden;
+  max-height: 0;
+}
+.collapse .positionDrop-show {
+  height: auto;
+  max-height: 9999px;
+  background: #eeeeee;
+  background-color: white;
+  border: 1px solid #cacaca;
+  font-size: .9rem;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+.collapse .col-head{
+   background-color: #3c8dbc; 
+   color: white;
+   display: flex;
+   flex: 1;
+   align-items: center;
+   padding: 2px 10px;
+   margin-top: 10px;
+   cursor: pointer;
+   border-radius: 5px 5px 0 0;
+}
+.collapse .tab-li {
+    list-style-type: none;
+    font-size: 1rem;
+    border-top: 5px solid #3c8dbc;
+    border-left: 3px solid #3c8dbc;
+    border-right: 3px solid #3c8dbc;
+    padding: 11px 13px;
+    cursor: pointer;
+    background-color: #3c8dbc;
+    color: white;
+    font-size: 0.8rem;
+  }
+  .collapse .tab-active {
+    list-style-type: none;
+    border-top: 5px solid #3c8dbc;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 11px 13px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 0.8rem;
+  }
+  .collapse .menu-content{
+      padding: 15px;
+      font-size: .8rem;
+  }
+  .menu-head{
+    display: flex;
+    gap: 5px;
+  }

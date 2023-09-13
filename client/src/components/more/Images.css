@@ -1,0 +1,39 @@
+.images {
+  padding: 15px;
+}
+.images .content-div {
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 50vh;
+}
+.upload-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #3c8dbc;
+  color: white;
+}
+.images .delete-btn {
+  padding: 5px;
+  border-radius: 5px;
+  background: #b2290a;
+  color: white;
+  font-weight: 500;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.images .img {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.images .img-div{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  margin: 3rem 0;
+}

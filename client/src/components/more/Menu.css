@@ -1,0 +1,93 @@
+.menu{
+    padding: 15px;
+}
+.menu-div{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    gap: 5px;
+    background-color: white;
+}
+.menu .menu-head {
+  display: flex;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-radius: 5px;
+  gap: 5px;
+}
+.menu .tab-li {
+  list-style-type: none;
+  font-size: 1rem;
+  border-top: 5px solid #3c8dbc;
+  border-left: 3px solid #3c8dbc;
+  border-right: 3px solid #3c8dbc;
+  padding: 11px 13px;
+  cursor: pointer;
+  background-color: #3c8dbc;
+  color: white;
+  font-size: 0.8rem;
+}
+.menu .tab-active {
+  list-style-type: none;
+  border-top: 5px solid #3c8dbc;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 11px 13px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 0.8rem;
+}
+.menu .menu-content{
+    padding: 15px;
+    min-height: 20rem;
+    font-size: .8rem;
+}
+.menu .menu-content li{
+    padding: 10px;
+    background-color: #3c8dbc;
+    width: 9rem;
+    color: white;
+    margin: 5px 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.menu .menu-content li:hover{
+    padding: 10px;
+    background-color: #286f98;
+    width: 9rem;
+    color: white;
+    margin: 5px 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu .menu-content .test-li, .menu .java-li,.menu .net-li,.menu .database-li{
+    display: none;
+}
+.menu .menu-content .testing:hover .test-li, .java:hover .java-li, .net:hover .net-li, .database:hover .database-li {
+    display: block;
+}
+.menu .testing, .java, .net, .database{
+    width: 12rem !important;
+    text-align: center;
+    position: relative;
+}
+.menu .testing .test-li{
+    position: absolute;
+    left: 12rem;
+    top: -5px;
+}
+.menu .java .java-li{
+    position: absolute;
+    left: 12rem;
+    top: -5px;
+}
+.menu .net .net-li{
+    position: absolute;
+    left: 12rem;
+    top: -5px;
+}
+.menu .database .database-li{
+    position: absolute;
+    left: 12rem;
+    top: -5px;
+}

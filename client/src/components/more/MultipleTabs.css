@@ -1,0 +1,51 @@
+.multitabs {
+  padding: 15px;
+}
+.quota {
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-radius: 5px;
+  gap: 5px;
+  background-color: white;
+}
+.multitabs .quota-head {
+  display: flex;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  gap: 5px;
+}
+.quota .tab-li {
+  list-style-type: none;
+  font-size: 1rem;
+  border-top: 5px solid #3c8dbc;
+  border-left: 3px solid #3c8dbc;
+  border-right: 3px solid #3c8dbc;
+  padding: 11px 13px;
+  cursor: pointer;
+  background-color: #3c8dbc;
+  color: white;
+  font-size: .8rem;
+
+}
+.quota .tab-active {
+  list-style-type: none;
+  border-top: 5px solid #3c8dbc;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 11px 13px;
+  cursor: pointer;
+  background-color: white;
+  font-size: .8rem;
+}
+.multitabs .tab-content{
+    min-height: 10rem;
+}
+.multitabs .tab-content p{
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: .8rem;
+}
+.multitabs .tab-content input{
+    margin:1rem;
+    margin-top: -1rem;
+}

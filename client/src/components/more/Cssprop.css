@@ -1,0 +1,123 @@
+.cssprop {
+  padding: 15px;
+}
+.cssprop .css-div{
+    background-color: white;
+}
+.cssprop .cssprop-head {
+  display: flex;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-radius: 5px;
+  gap: 5px;
+  margin-top: 10px
+}
+.cssprop .tab-li {
+  list-style-type: none;
+  font-size: 1rem;
+  border-top: 5px solid #3c8dbc;
+  border-left: 3px solid #3c8dbc;
+  border-right: 3px solid #3c8dbc;
+  padding: 11px 13px;
+  cursor: pointer;
+  background-color: #3c8dbc;
+  color: white;
+  font-size: 0.8rem;
+}
+.cssprop .tab-active {
+  list-style-type: none;
+  border-top: 5px solid #3c8dbc;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 11px 13px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 0.8rem;
+}
+.cssprop .css-content {
+  background-color: white;
+    padding: 15px;
+}
+.cssprop .css-content .link-div{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    gap: 20px;
+    font-size: .9rem;
+}
+.cssprop .css-content .label-div{
+    display: flex;
+    font-size: .8rem;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem;
+}
+.cssprop .css-content .button-div{
+    display: flex;
+    font-size: .8rem;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem;
+}
+.cssprop .css-content .label-div .label{
+    padding: 3px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.cssprop .css-content .button-div .button{
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px; 
+    font-size: .8rem;
+    cursor: pointer;
+}
+.cssprop .css-content .progress-div{
+    display: flex;
+    flex-direction: column;
+}
+.cssprop .css-content .progress-div progress{
+    width: 100%;
+    height: 3rem;
+    margin: 10px 0;
+}
+progress[value] {
+    --color: #3c8dbc; /* the progress color */
+    --background: white; /* the background color */
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    height: 1.4rem !important;
+    margin: 0 10px;
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-bar {
+    border-radius: 5px;
+    background: var(--background);
+  }
+  .green[value]::-webkit-progress-value {
+    border-radius: 5px;
+    /* background: #00a65a; */
+  }
+  .blue[value]::-webkit-progress-value {
+    border-radius: 5px;
+    background: #3c8dbc;
+  }
+  .yellow[value]::-webkit-progress-value {
+    border-radius: 5px;
+    background: #f39c12;
+  }
+  .red[value]::-webkit-progress-value {
+    border-radius: 5px;
+    background: #dd4b39;
+  }
+  progress[value]::-moz-progress-bar {
+    border-radius: 5px;
+    background: var(--color);
+  }
+  

@@ -1,0 +1,82 @@
+.create {
+  padding: 15px;
+  background-color: #ecf0f5;
+}
+.employeeFields .notSkill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0.8rem;
+}
+.employeeFields .form-div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.employeeFields .form-div input {
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1.2px solid #6f6f6f;
+  background: white;
+  color: #47437a;
+  max-width: 20rem;
+}
+.employeeFields .skill-div {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+  flex-flow: row wrap;
+}
+.employeeFields .btn-submit {
+  height: 2rem;
+  padding: 3px;
+  border-radius: 5px;
+  background: #1067ca;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 7rem;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.employeeFields .btn-clear {
+  height: 2rem;
+  padding: 3px;
+  border-radius: 5px;
+  background: #b2290a;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 7rem;
+}
+@media screen and (max-width: 1050px) {
+  .employeeFields .form-div input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.2px solid #6f6f6f;
+    background: white;
+    color: #47437a;
+  }
+}
+@media screen and (max-width: 866px) {
+  .employeeFields .notSkill {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .employeeFields .notSkill {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

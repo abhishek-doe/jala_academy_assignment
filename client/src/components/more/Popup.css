@@ -1,0 +1,74 @@
+.popup-head {
+  border-top: 5px solid #3c8dbc;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 11px 10px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 0.8rem;
+}
+.popup .ul-div li{
+    list-style-type: none;
+    font-size: .9rem;
+    padding: 5px 10px;
+    background-color: #3c8dbc;
+    width: 8rem;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.popup .ul-div li:hover{
+    border-radius: 10px;
+    background-color: #2b6587;
+}
+.popup .ul-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 121;
+}
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 20px;
+  z-index: 125;
+}
+.popup .heading-div{
+    background-color: #e65a3a;
+    padding: 10px 24px;
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 21rem;
+    color: white;
+}
+.close-btn{
+    padding: 5px 10px;
+    background-color: #e65a3a;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 10px;
+}
